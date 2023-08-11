@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "g": "^2.0.1",
-    "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
@@ -13,13 +12,12 @@
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0"
   },
-  "homepage": "https://codingisfood.github.io/moviesdbapiproject/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && gh-pages -d build"
+    "deploy": "react-script deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
